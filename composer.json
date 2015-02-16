@@ -1,0 +1,21 @@
+{
+    "name": "tvshowtime/tvshowtime-php-sdk",
+    "description": "PHP SDK for TVShow Time's API",
+    "type": "library",
+    "keywords": ["tvshowtime","tozelabs", "tvshow"],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "authors": [
+        {
+            "name": "TVShow Time",
+            "email": "support@tvshowtime.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Tvst": "src/"
+        }
+    }
+}
