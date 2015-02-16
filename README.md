@@ -9,3 +9,5 @@ to install, add the following in your composer.json
         tvshowtime/tvshowtime-php-sdk": "dev-master"
     }
 ```
+
+API documentation available at https://api.tvshowtime.com/doc
