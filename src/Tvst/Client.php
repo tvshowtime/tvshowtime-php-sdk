@@ -18,6 +18,12 @@ namespace Tvst;
 
 require __DIR__ . "/../../vendor/autoload.php";
 
+
+/*
+ *
+ * check https://api.tvshowtime.com/doc for documentation
+ *
+ */
 class Client extends \GuzzleHttp\Client
 {
     static $defaultAgent = 'tvst-php-sdk/v1';
